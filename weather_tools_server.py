@@ -48,6 +48,3 @@ def get_fahrenheitFromCelsius(celsius: float) -> dict:
 app = mcp.http_app()
 
 
-if __name__ == "__main__":
-    # STDIO transport by default (best for local labs and desktop MCP clients)
-    mcp.run()
